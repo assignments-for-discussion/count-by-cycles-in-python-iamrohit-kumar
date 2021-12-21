@@ -24,7 +24,4 @@ def test_bucketing_by_number_of_cycles():
   print(counts["mediumCount"])
   print(counts["highCount"])
   print("Done counting :)")
-
-
-if _name_ == '_main_':
-  test_bucketing_by_number_of_cycles()
+test_bucketing_by_number_of_cycles()
